@@ -11,21 +11,35 @@
   color: brown;
 }
 
-
 .home {
   margin-bottom: 250px;
 }
 
-h1 {
+.App h1 {
   font-size: 8rem;
   margin: 100px 50px 20px;
+  animation-duration: 2s;
+  animation-name: slidein;
 }
 
-h2 {
+.App h2 {
   font-size: 2rem;
   margin: 25px 70px 100px;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 /* navigation */
 
@@ -38,11 +52,13 @@ nav {
 a {
   color: brown;
   font-size: .9rem;
+  font-family: 'Oswald', sans-serif;
   opacity: 1;
 }
 
 a:hover {
-  opacity: .5;
+  opacity: .6;
+  font-weight: 700;
 }
 
 ul {
