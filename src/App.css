@@ -4,6 +4,7 @@
 .App, html, body {
   text-align: center;
   font-family: 'Karla', sans-serif;
+  background-color: antiquewhite;
 }
 
 .name {
