@@ -6,8 +6,9 @@ import {
   Link
 } from 'react-router-dom';
 import HomePage from './HomePage';
-import AboutPage from './AboutPage';
+// import AboutPage from './AboutPage';
 import ProjectPage from './ProjectPage';
+import ConnectPage from './ConnectPage';
 import './App.css';
 
 
@@ -19,22 +20,19 @@ export default function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/"><img src='/home.png' /></Link>
+            </li>
+            {/* <li>
+              <Link to="/about"><img src='/about.png' /></Link>
+            </li> */}
+            <li>
+              <Link to={{ pathname: 'https://github.com/kathrynzaro' }} target="_blank"><img src='/github.png' /></Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to={{ pathname: 'https://www.linkedin.com/in/katzaro/' }} target="_blank"><img src='/linkedin.png' /></Link>
             </li>
             <li>
-              <Link to="/project">Projects</Link>
-            </li>
-            <li>
-              <Link to={{ pathname: 'https://github.com/kathrynzaro' }} target="_blank">GitHub</Link>
-            </li>
-            <li>
-              <Link to={{ pathname: 'https://www.linkedin.com/in/katzaro/' }} target="_blank">LinkedIn</Link>
-            </li>
-            <li>
-              <a href='/katzaro-resume-5.pdf' target="_blank">Resume</a>
+              <a href='/katzaro-resume-5.pdf' target="_blank"><img src='/resume.png' /></a>
             </li>
           </ul>
         </nav>
@@ -43,11 +41,14 @@ export default function App() {
           <Route exact path="/">
             <HomePage />
           </Route>
-          <Route exact path="/about">
+          {/* <Route exact path="/about">
             <AboutPage />
-          </Route>
+          </Route> */}
           <Route exact path="/project">
             <ProjectPage />
+          </Route>
+          <Route exact path="/connect">
+            <ConnectPage />
           </Route>
         </Switch>
       </div>
