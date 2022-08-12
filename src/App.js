@@ -19,22 +19,19 @@ export default function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/"><img src='/home.png' /></Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about"><img src='/about.png' /></Link>
             </li>
             <li>
-              <Link to="/project">Projects</Link>
+              <Link to={{ pathname: 'https://github.com/kathrynzaro' }} target="_blank"><img src='/github.png' /></Link>
             </li>
             <li>
-              <Link to={{ pathname: 'https://github.com/kathrynzaro' }} target="_blank">GitHub</Link>
+              <Link to={{ pathname: 'https://www.linkedin.com/in/katzaro/' }} target="_blank"><img src='/linkedin.png' /></Link>
             </li>
             <li>
-              <Link to={{ pathname: 'https://www.linkedin.com/in/katzaro/' }} target="_blank">LinkedIn</Link>
-            </li>
-            <li>
-              <a href='/katzaro-resume-5.pdf' target="_blank">Resume</a>
+              <a href='/katzaro-resume-5.pdf' target="_blank"><img src='/resume.png' /></a>
             </li>
           </ul>
         </nav>
