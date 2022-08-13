@@ -5,6 +5,7 @@ html, body {
   text-align: center;
   font-family: 'Karla', sans-serif;
   min-height: 100vh;
+
 }
 
 .App {
@@ -14,6 +15,7 @@ html, body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  
 }
 
 
@@ -30,7 +32,7 @@ nav {
   left: 50%;
   transform: translate(-50%);
   background-color: rgb(255, 255, 255);
-  /* width: 100%; */
+  width: 100%;
 }
 
 ul a {
@@ -77,6 +79,8 @@ nav img {
   align-items: center;
   /* justify-content: center; */
   height: 100vh;
+  width: 100vw;
+
 }
 
 .App h1 {
@@ -104,20 +108,28 @@ nav img {
 .App p {
   font-size: 1rem;
   letter-spacing: 1px;
-  padding: 10px 25px;
-  color: rgb(42, 42, 42);
+  padding: 30px 25px;
+  color: black;
   text-align: center;
   max-width: 500px;
   min-width: 250px;
 }
 
+.about-p {
+  width: 100%;
+  background-color: rgba(219, 196, 196, 0.63);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
 
 .project-link {
   font-family: inherit;
   font-size: inherit;
   color: black;
   text-decoration: none;
-  opacity: .4;
+  opacity: .3;
   transition: all 0.5s ease 0s;
 }
 
@@ -176,8 +188,6 @@ footer {
   flex-direction: row;
 }
 
-
-
 /* ABOUT PAGE */
 
 
@@ -230,11 +240,85 @@ footer {
 
 /* PROJECT PAGE */
 
-.project-container h2 {
+/* .project-container h1:hover {
+  opacity: .5;
+  cursor: pointer;
+} */
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.project-a-tag {
+  margin: 0 10px;
+  padding: 0 0 2px;
+  border-bottom: 1px solid gray;
+  text-decoration: none;
+  color: black;
+  opacity: .5;
+  transition: all 0.5s ease-in-out 0s;
+  font-size: 1.1rem;
+}
+
+.project-a-tag:hover {
+  opacity: 1;
+  /* font-weight: 700; */
+}
+
+.snake {
+  font-family: 'Press Start 2P';
+  /* margin-top: 200px; */
+  color: chartreuse;
+      text-shadow: 4px 4px 1px rgb(0, 0, 0), 6px 6px 1px rgb(3, 134, 40), 7px 7px 1px rgb(60, 245, 32), 8px 8px 3px black, 5px 5px 15px rgb(217, 255, 0), 1px 1px 15px rgb(0, 106, 0);
+
+}
+
+.printstagram {
+  font-family: 'Grand Hotel';
+  font-size: 2.2rem;
+  font-weight: 500;
+  /* margin-top: 70px; */
+}
+
+.hand {
+  font-family: 'Syne';
+  /* margin-top: 70px; */
+  color: rgb(104, 27, 48);
+}
+
+.snake img {
+  width: 40px;
+}
+
+.printstagram img {
+  width: 30px;
+}
+
+.project {
+  text-align: left;
+  border: 2px solid gray;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  height: 400px;
   margin-top: 100px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: gray;
-  font-size: 1rem;
+}
+
+.project h2 {
+  color: rgb(43, 43, 43);
+}
+
+.project h3 {
+  font-weight: 100;
+}
+
+.single-project {
+  padding: 30px;
 }
 
 
@@ -248,21 +332,27 @@ footer {
 }
 
 .connect-page {
-  margin-top: -150px;
+  /* margin-top: 150px; */
+  min-height: 500px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 100px;
 }
 
 .connect-page p {
-  min-width: 250px;
-  max-width: 450px;
-  text-align: justify;
+  min-width: 220px;
+  max-width: 220px;
+  text-align: center;
   margin: 20px 20px;
-  font-size: 1.2rem;
-  letter-spacing: 1px;
-  line-height: 25px;
+  font-size: .8rem;
+  letter-spacing: .3px;
+  line-height: 20px;
+  background-color: rgb(254, 238, 236);
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 65px;
 }
 
 .connect-page h2 {
@@ -270,5 +360,10 @@ footer {
   margin: 10px;
   letter-spacing: 1px;
   width: 250px;
+}
+
+.connect-page .top-link {
+  margin: 80px 10px 10px;
+
 }
 
