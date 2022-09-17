@@ -26,7 +26,7 @@ export default function ConnectPage() {
           </h2>
           <h2>
             Check out my
-            <a href="/katzaro-resume-5.pdf" target="_blank" rel="noreferrer">
+            <a href="/katzaro-resume-sept22.pdf" target="_blank" rel="noreferrer">
               {' '}
               resume
             </a>
