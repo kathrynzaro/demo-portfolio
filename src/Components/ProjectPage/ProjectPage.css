@@ -61,6 +61,33 @@
     height: 375px;
     overflow: hidden;
   }
+
+  .project-card {
+    margin: 20px;
+    padding: 5px;
+    height: 80vh;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90vw;
+    max-width: 1300px;
+  }
+
+  .arrow {
+    width: 35px;
+    filter: invert(100%);
+    border: none;
+  }
+
+  .arrows {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+  }
 }
 
 /* mobile */
@@ -83,7 +110,7 @@
 
   .project-card h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 600;
     padding: 5px 10px 10px;
     opacity: .9;
@@ -101,20 +128,47 @@
   }
 
   .content {
-    margin: 50px;
+    margin: 20px;
     width: 300px;
   }
 
   video, img {
     opacity: .7;
-    width: 300px;
+    width: 250px;
   }
 
   .video-mask {
     border-radius: 10px;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     overflow: hidden;
+  }
+
+
+  .project-card {
+    margin: 50px 10px;
+    padding: 5px;
+    height: 100vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95vw;
+  }
+
+  .arrow {
+    width: 30px;
+    filter: invert(100%);
+    border: none;
+  }
+
+  .arrows {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
   }
 }
 
@@ -152,30 +206,6 @@
   opacity: 1;
 }
 
-.arrow {
-  width: 35px;
-  filter: invert(100%);
-  border: none;
-}
 
-.arrows {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 150px;
-}
 
-.project-card {
-  margin: 20px;
-  padding: 5px;
-  height: 80vh;
-  text-align: left;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 90vw;
-  max-width: 1300px;
-}
 
