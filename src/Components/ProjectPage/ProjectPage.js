@@ -122,7 +122,7 @@ export default function ProjectPage() {
           </a>
         </div>
       </div>
-      <footer>{/* <a href="/connect">Connect</a> */}</footer>
+      {/* <footer><a href="/connect">Connect</a></footer> */}
     </div>
   );
 }
