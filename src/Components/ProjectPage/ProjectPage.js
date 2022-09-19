@@ -5,23 +5,30 @@ export default function ProjectPage() {
   return (
     <div className="App">
       <div className="project-page">
-        <div id="handofresources-div" className="project-card">
+        <div className="project-card" id="boobot">
           <div className="content">
             <h1>boo!BOT</h1>
             <a
               href="https://github.com/orgs/boo-BOT-Team/repositories"
               target="_blank"
               rel="noreferrer"
+              className="project-links"
             >
               GitHub
             </a>
-            <a href="https://boo-bot-server.herokuapp.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://boo-bot-server.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="project-links"
+            >
               Live
             </a>
             <a
               href="https://marketplace.visualstudio.com/items?itemName=booatthebot.booBOT"
               target="_blank"
               rel="noreferrer"
+              className="project-links"
             >
               Extension
             </a>
@@ -36,18 +43,31 @@ export default function ProjectPage() {
             </p>
           </div>
           <div className="video-mask">
-            <video width="300" autoPlay loop muted>
+            <video className="boobot-vid" autoPlay loop muted>
               <source src="/booghost.mp4" type="video/mp4"></source>
             </video>
           </div>
+          <a href="#printstagram">
+            <img className="arrow" src="/arrowdown.png" />
+          </a>
         </div>
-        <div id="printstagram-div" className="project-card">
+        <div className="project-card" id="printstagram">
           <div className="content">
             <h1>Printstagram</h1>
-            <a href="https://github.com/Printstagram/Printstagram" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/Printstagram/Printstagram"
+              target="_blank"
+              rel="noreferrer"
+              className="project-links"
+            >
               GitHub
             </a>
-            <a href="https://printstagram.netlify.app/sign-in" target="_blank" rel="noreferrer">
+            <a
+              href="https://printstagram.netlify.app/sign-in"
+              target="_blank"
+              rel="noreferrer"
+              className="project-links"
+            >
               Live
             </a>
             <h3>React, CSS, Supabase, Jest, Netlify.</h3>
@@ -56,20 +76,36 @@ export default function ProjectPage() {
               for animals that are currently up for adoption.
             </p>
           </div>
-          <video width="300" height="300" autoPlay loop muted>
-            <source src="/prinsta.mp4" type="video/mp4"></source>
-          </video>
+          <div className="video-mask">
+            <video className="printstagram-vid" autoPlay loop muted>
+              <source src="/prinsta.mp4" type="video/mp4"></source>
+            </video>
+          </div>
+          <div className="arrows">
+            <a href="#boobot">
+              <img className="arrow" src="/arrowup.png" />
+            </a>
+            <a href="#vsssnake">
+              <img className="arrow" src="/arrowdown.png" />
+            </a>
+          </div>
         </div>
-        <div id="snake-div" className="project-card">
+        <div className="project-card" id="vsssnake">
           <div className="content">
             <h1>VSsSnake</h1>
-            <a href="https://github.com/VSssnake/VSssnake" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/VSssnake/VSssnake"
+              target="_blank"
+              rel="noreferrer"
+              className="project-links"
+            >
               GitHub
             </a>
             <a
               href="https://main--gilded-granita-467f3b.netlify.app/"
               target="_blank"
               rel="noreferrer"
+              className="project-links"
             >
               Live
             </a>
@@ -79,13 +115,14 @@ export default function ProjectPage() {
               engineering students as they memorize the keyboard shortcuts to navigate VS Code.
             </p>
           </div>
-          <img width="300" src="/snake.png"></img>
+
+          <img src="/snake.png"></img>
+          <a href="#printstagram">
+            <img className="arrow" src="/arrowup.png" />
+          </a>
         </div>
       </div>
-      <footer>
-        {/* <div className='line'></div> */}
-        <a href="/connect">connect with me.</a>
-      </footer>
+      <footer>{/* <a href="/connect">Connect</a> */}</footer>
     </div>
   );
 }

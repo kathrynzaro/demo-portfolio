@@ -19,10 +19,7 @@ export default function AboutPage() {
           </p>
         </div>
       </div>
-      <footer>
-        {/* <div className='line'></div> */}
-        <a href="/connect">connect with me.</a>
-      </footer>
+      <footer>{/* <a href="/connect">Connect</a> */}</footer>
     </div>
   );
 }
