@@ -16,7 +16,7 @@ export default function HomePage() {
           I&apos;ve been working on.
         </h3>
       </div>
-      <footer>{/* <a href="/connect">Connect</a> */}</footer>
+      {/* <footer><a href="/connect">Connect</a></footer> */}
     </div>
   );
 }

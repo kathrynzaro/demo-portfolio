@@ -1,36 +1,38 @@
-.homepage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-  text-align: center;
-}
 
 /* desktop */
 @media (min-width: 600px) {
+  .homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60vh;
+    width: 100vw;
+    text-align: center;
+    /* padding: 50px 0; */
+  }
+
   .homepage h1 {
     color: brown;
-    font-size: 5.5rem;
-    padding: 100px 30px 10px;
+    font-size: 6rem;
+    padding: 0 30px;
     font-family: 'Montserrat', sans-serif;
     line-height: 140px;
     opacity: .9;
   }
 
   .homepage h2 {
-    font-size: 3rem;
-    margin: 20px 30px 25px;
+    font-size: 3.5rem;
     color: white;
-    padding: 30px;
+    padding: 0 30px;
     opacity: .8;
     font-weight: 500;
+    max-width: 1000px;
   }
 
   .homepage h3 {
-    margin-top: 20px;
-    padding: 20px 25px;
-    font-size: 1.5rem;
+    padding: 0 25px;
+    font-size:2rem;
     opacity: .8;
     font-weight: 500;
   }
@@ -38,26 +40,37 @@
 
 /* mobile */
 @media (max-width: 600px) {
+  .homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 65vh;
+    width: 100vw;
+    text-align: center;
+    /* padding: 50px 0; */
+  }
   .homepage h1 {
     color: brown;
     font-size: 4.5rem;
-    padding: 60px 20px 20px;
+    padding: 0 40px;
     font-family: 'Montserrat', sans-serif;
     opacity: .9;
     font-weight: 600;
+    margin-top: -40px;
   }
   
   .homepage h2 {
     font-size: 1.5rem;
     color: white;
-    padding: 30px;
+    padding: 0 40px;
     opacity: .8;
     font-weight: 500;
     margin: 0;
   }
 
   .homepage h3 {
-    padding: 30px 45px;
+    padding: 0 55px;
     font-size: 1.1rem;
     opacity: .8;
     font-weight: 500;
