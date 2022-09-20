@@ -1,6 +1,8 @@
-# Portfolio
+# Welcome to my portfolio repo!
 
-## To do next
+## Construction began in June 2022 & will be completed never
+
+### Built with React and glorious glorious hyperfocus
 
 - fix margin on homepage
 - add flex-wrap: no-wrap to media class on project page
