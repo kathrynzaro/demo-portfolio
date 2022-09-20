@@ -4,6 +4,7 @@
   /* justify-content: center; */
   align-items: center;
   border: 50px 0;
+  padding-bottom: 50px;
   /* padding: 50px 0; */
   width: 100vh;
   height: 100%;
@@ -64,6 +65,14 @@
   .content {
     margin: 20px;
     width: 450px;
+  }
+
+  .media {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
   }
 
   video, img {
