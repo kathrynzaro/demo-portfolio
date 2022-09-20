@@ -4,6 +4,8 @@
 
 ### Built with React and glorious glorious hyperfocus
 
+#### To-do next
+
 - fix margin on homepage
 - add flex-wrap: no-wrap to media class on project page
 - change photo on about?
