@@ -48,9 +48,11 @@ export default function ProjectPage() {
                 <source src="/booghost.mp4" type="video/mp4"></source>
               </video>
             </div>
-            <a href="#printstagram">
-              <img className="arrow" src="/arrowdown.png" />
-            </a>
+            <div className="arrows">
+              <a href="#printstagram">
+                <img className="arrow" src="/arrowdown.png" />
+              </a>
+            </div>
           </div>
         </div>
         <div className="project-card" id="printstagram">
@@ -122,9 +124,11 @@ export default function ProjectPage() {
 
           <div className="media">
             <img src="/snake.png"></img>
-            <a href="#printstagram">
-              <img className="arrow" src="/arrowup.png" />
-            </a>
+            <div className="arrows">
+              <a href="#printstagram">
+                <img className="arrow" src="/arrowup.png" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
