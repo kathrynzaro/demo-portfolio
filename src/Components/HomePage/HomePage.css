@@ -21,12 +21,12 @@
   }
 
   .homepage h1 {
-    color: brown;
+    color: rgb(185, 68, 28);
     font-size: 10vmax;
     /* font-size: 6rem; */
     padding: 0 30px;
     font-family: 'Montserrat', sans-serif;
-    opacity: .9;
+    opacity: 1;
   }
 
   .homepage h2 {
@@ -42,9 +42,14 @@
   .homepage h3 {
     padding: 0 75px;
     font-size: 2vmax;
-    /* font-size: 2rem; */
+    line-height: 25px;
     opacity: .8;
     font-weight: 500;
+  }
+
+  .homepage a:hover {
+    padding-bottom: 4px;
+    border-bottom: 1px solid white;
   }
 }
 
@@ -103,24 +108,19 @@
 
 .homepage span:hover {
   color: brown;
-  transition: all 0.5s ease-in-out 0s;
 }
 
 
 .homepage a {
   font-family: inherit;
   font-size: inherit;
-  color: brown;
+  color: rgb(185, 68, 28);
   text-decoration: none;
   opacity: 1;
   transition: all 0.5s ease-in-out 0s;
 }
 
-.homepage a:hover {
-  color: white;
-  padding-bottom: 4px;
-  border-bottom: 1px solid white;
-}
+
 
 
 

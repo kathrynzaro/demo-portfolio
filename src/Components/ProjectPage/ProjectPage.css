@@ -59,6 +59,7 @@
   
   .project-card h1 {
     font-family: 'Montserrat', sans-serif;
+    color: white;
     font-size: 3rem;
     font-weight: 600;
     padding: 5px 10px 10px;
@@ -74,6 +75,14 @@
     transition: all 0.5s ease-in-out 0s;
     font-size: 1.3rem;
     color: white;
+  }
+
+  .project-links:hover {
+    opacity: 1;
+    transition: all 0.5s ease-in-out 0s;
+    color: brown;
+    padding-bottom: 4px;
+    border-bottom: .5px solid white;
   }
 
   .content {
@@ -102,12 +111,19 @@
     overflow: hidden;
   }
 
-
+  .arrow:hover {
+    padding-bottom: 0;
+    border-bottom: 0;
+    opacity: .3;
+  }
 
   .arrow {
     width: 35px;
     filter: invert(100%);
     border: none;
+    transition: all 0.5s ease-in-out 0s;
+    opacity: .9;
+
   }
 
   .arrows {
@@ -229,9 +245,6 @@
   opacity: .85;
 }
 
-.project-links:hover {
-  opacity: 1;
-}
 
 
 
