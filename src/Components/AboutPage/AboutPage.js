@@ -5,19 +5,21 @@ export default function AboutPage() {
   return (
     <div className="App">
       <div className="about-page">
-        <img src="/headshot.jpeg" />
         <div className="about-text">
           <h1>
             Kat Zaro
-            <span>she/her</span>
+            <span id="pronouns">she/her</span>
           </h1>
           <p>
-            I&apos;m a full-stack software engineer who&apos;s passionate about design. My greatest
-            hope is to improve the lived experience of others and to transform the physical & tech
-            spaces around me into spaces that are accessible, efficient, and, of course, easy on the
-            eyes.
+            I&apos;m a full-stack software engineer who&apos;s passionate about design, human
+            beings, and making cool things with code. <br></br>
+            <br></br> Drawing from a background in Women&apos;s Studies and the specialty coffee
+            industry, my greatest hope is to improve the lived experience of others and to transform
+            the physical & tech spaces around me into spaces that are <em>accessible</em>,{' '}
+            <em>efficient</em>, and, of course, <span>easy on the eyes</span>.
           </p>
         </div>
+        <img src="/headshot.jpeg" />
       </div>
       <footer>{/* <a href="/connect">Connect</a> */}</footer>
     </div>
