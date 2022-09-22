@@ -25,7 +25,7 @@ export default function ConnectPage() {
             </li>
             <li>
               Check out my
-              <a href="/katzaro-resume-sept22.pdf" target="_blank" rel="noreferrer">
+              <a href="/katzaro-resume-sept2022.pdf" target="_blank" rel="noreferrer">
                 {' '}
                 resume
               </a>

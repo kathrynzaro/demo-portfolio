@@ -1,74 +1,81 @@
-.connect-page {
-  /* margin-top: 70px; */
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  padding: 100px 50px;
-  /* height: 100vh; */
-}
+/* desktop */
+@media (min-width: 600px) {
 
-.left-section {
-  padding: 30px;
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
+  .connect-page {
+    /* margin-top: 70px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 100px;
+    height: 100vh;
+  }
 
-.right-section {
-  padding: 30px 50px 50px 0;
-  height: 250px;
-}
+  .left-section {
+    padding: 30px;
+    height: 330px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 
-h1 {
-  font-size: 2rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  opacity: .9;
-  margin: 0;
-}
+  .right-section {
+    padding: 30px;
+    height: 330px;
+    width: 450px;
+  }
 
-.connect-page p {
-  width: 330px;
-  margin: 0px;
-  /* font-size: 1.1rem; */
-  line-height: 27px;
-  font-weight: 500;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  opacity: .9;
-}
+  h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    opacity: 1;
+    margin: 0;
+    color: brown;
+  }
 
-.right-section ul {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  width: fit-content;
-  height: 100%;
-  margin: 0;
-}
+  .connect-page p {
+    margin: 0px;
+    line-height: 31px;
+    font-weight: 500;
+    color: white;
+    opacity: .9;
+    font-size: 1.4rem;
+    opacity: .8;
+  }
 
-li {
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: brown;
-  opacity: .9;
-}
+  .right-section ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: fit-content;
+    margin: 0;
+    height: 100%;
+  }
 
-a {
+  li {
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: brown;
+  }
+  }
+
+.right-section a {
   color: white;
   text-decoration: none;
-  transition: all 0.5s ease 0s;
+  transition: all 0.5s ease-in-out 0s;
   opacity: .7;
+  padding-right: 9px;
 }
 
-a:hover {
+.right-section a:hover {
   opacity: 1;
   transition: all 0.5s ease-in-out 0s;
   color: brown;
+  padding-bottom: 4px;
+  border-bottom: 1px solid white;
 }
