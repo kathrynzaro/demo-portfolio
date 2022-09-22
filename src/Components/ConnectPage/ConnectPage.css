@@ -15,8 +15,8 @@
 
   .left-section {
     padding: 30px;
-    height: 350px;
-    width: 400px;
+    height: 330px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,24 +24,27 @@
   }
 
   .right-section {
-    padding: 30px 50px 50px 0;
+    padding: 30px;
+    height: 330px;
+    width: 450px;
   }
 
   h1 {
     font-size: 3rem;
     font-weight: 500;
-    opacity: .9;
+    opacity: 1;
     margin: 0;
+    color: brown;
   }
 
   .connect-page p {
     margin: 0px;
-    /* font-size: 1.1rem; */
-    line-height: 30px;
+    line-height: 31px;
     font-weight: 500;
     color: white;
     opacity: .9;
     font-size: 1.4rem;
+    opacity: .8;
   }
 
   .right-section ul {
@@ -50,12 +53,12 @@
     align-items: flex-start;
     justify-content: space-evenly;
     width: fit-content;
-    height: 300px;
     margin: 0;
+    height: 100%;
   }
 
   li {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: 500;
     color: brown;
   }
@@ -73,6 +76,5 @@ a:hover {
   transition: all 0.5s ease-in-out 0s;
   color: brown;
   padding-bottom: 4px;
-  padding-right: 5px;
   border-bottom: 1px solid white;
 }
