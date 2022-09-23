@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio&family=Archivo&family=Arvo:wght@400;700&family=Bangers&family=BioRhyme&family=Bungee+Inline&family=Chicle&family=Comfortaa:wght@300&family=Creepster&family=Encode+Sans+Semi+Expanded&family=Epilogue&family=Grand+Hotel&family=Great+Vibes&family=Griffy&family=Heebo:wght@900&family=IM+Fell+French+Canon&family=IM+Fell+French+Canon+SC&family=Inconsolata:wght@200&family=Inter&family=Irish+Grover&family=Josefin+Sans&family=Karla&family=Lato&family=Limelight&family=Manrope&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:wght@400;500;600;700&family=Neonderthaw&family=Nixie+One&family=Oswald&family=Philosopher:wght@400;700&family=Poiret+One&family=Poppins&family=Press+Start+2P&family=Raleway:wght@100&family=Roboto+Mono:wght@100&family=Rubik+Wet+Paint&family=Rye&family=Silkscreen&family=Slabo+27px&family=Sora:wght@400;700&family=Space+Grotesk&family=Space+Mono&family=Spectral&family=Syne&family=Tenor+Sans&family=Ultra&family=Unica+One&family=VT323&family=Varela+Round&family=Yeseva+One&display=swap');
 
+* {
+  --persian-plum: #6E1D1Dff;
+  --falu-red: #791A1Aff;
+  --redwood: #AE624Eff;
+  --rust: #B64200ff;
+  --chocolate-web: #CA7141ff;
+  --tuscany: #B49A9Aff;
+  --misty-rose: #FEEBE8ff;
+  --snow: #FFFAF9ff;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
 
 html, body {
-  /* text-align: center; */
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
   width: 100vw;
@@ -25,8 +35,6 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* justify-content: center; */
-  color: white;
   height: 100vh;
 }
 
@@ -46,7 +54,7 @@ ul {
   margin: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   width: 100vw;
   max-width: 1000px;
@@ -76,26 +84,31 @@ nav img {
 }
 
 .active {
-  color: brown;
+  color: var(--rust);
+  cursor: default;
+  transition: all 0.5s ease-in-out 0s;
+  letter-spacing: 1.8px;
 }
+
+
 
 .active img {
   opacity: .3;
 }
 
 nav a {
-  color: white;
-  font-family: 'Montserrat', sans-serif;
+  color: var(--snow);
   text-decoration: none;
   transition: all 0.5s ease-in-out 0s;
-  font-size: .9rem;
-  opacity: 1;
-  padding: 3px;
+  font-size: 1rem;
+  opacity: .9;
+  margin: 0 13px;
 }
 
-nav a:hover {
-  /* opacity: .4; */
+nav a:not(.active):hover {
+  opacity: .7;
   padding-bottom: 4px;
-  border-bottom: 1px solid white;
+  border-bottom: 1.5px solid var(--snow);
+  color: var(--rust);
 }
 

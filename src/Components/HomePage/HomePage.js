@@ -7,10 +7,11 @@ export default function HomePage() {
       <div className="homepage">
         <section className="home-content">
           <h1>
-            Hey, I&apos;m
-            <span> Kat</span>.
+            Hey, I&apos;m <span id="kat">Kat</span>.
           </h1>
-          <h2>I&apos;m a software developer in Portland, Oregon.</h2>
+          <h2>
+            I&apos;m a software developer in <br></br> <span id="portland">Portland, OR</span>.
+          </h2>
           <h3>
             Check out some of the
             <a href="/project"> projects </a>
