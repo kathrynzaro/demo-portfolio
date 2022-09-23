@@ -10,7 +10,7 @@ export default function HomePage() {
             Hey, I&apos;m <span id="kat">Kat</span>.
           </h1>
           <h2>
-            I&apos;m a software developer in <br></br> <span id="portland">Portland, OR</span>.
+            I&apos;m a software developer in <span id="portland">Portland, OR</span>.
           </h2>
           <h3>
             Check out some of the

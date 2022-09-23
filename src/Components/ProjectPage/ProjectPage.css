@@ -69,7 +69,7 @@
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    width: 90vw;
+    width: 95vw;
     max-width: 1100px;
   }
 
@@ -81,6 +81,32 @@
     font-size: 3.5rem;
     font-weight: 600;
     padding: 5px 10px 10px;
+  }
+
+  #boobot h1:hover {
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 3.6rem;
+    letter-spacing: 2px;
+    color: rgb(192, 44, 255);
+    opacity: .6;
+  }
+
+  #printstagram h1:hover {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 3.6rem;
+    color: rgb(167, 255, 255);
+    padding-bottom: 0;
+    font-weight: 100;
+  }
+
+  #vsssnake h1:hover {
+    font-family: 'PRESS START 2P', cursive;
+    font-size: 3.1rem;
+    color: rgba(141, 255, 84, 0.858);
+    padding: 17px 10px;
+    text-transform: uppercase;
+    font-weight: 200;
+
   }
 
   .project-card h3 {
@@ -127,21 +153,9 @@
   }
 
   video {
-    width: 90%;
+    width: 95%;
     opacity: .6;
-  }
-
-  /* .video-mask {
-    border-radius: 5px;
-    width: 350px;
-    height: 350px;
-    overflow: hidden;
-  } */
-
-  .arrow:hover {
-    padding-bottom: 0;
-    border-bottom: 0;
-    opacity: .3;
+    padding: 10px;
   }
 
   .arrow {
@@ -149,17 +163,24 @@
     filter: invert(100%);
     border: none;
     transition: all 0.5s ease-in-out 0s;
-    opacity: .9;
+    opacity: .6;
   }
 
   .arrows {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 10%;
+    justify-content: center;
+    width: 5%;
     height: 150px;
     margin: 20px;
   }
+
+  .arrow:hover {
+    padding-bottom: 0;
+    border-bottom: 0;
+    opacity: .9;
+  }
+
 }
 
 /* mobile */
@@ -170,9 +191,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 50px 0 100px;
+    padding: 5px 0 100px;
     width: 100vh;
-    height: 100vh;
   }
 
   .arrows {
@@ -186,7 +206,9 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 95vw;
+    width: 90vw;
+    border-bottom: .5px solid var(--rust);
+
   }
 
   .project-card h1 {
