@@ -45,7 +45,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 3em;
+  height: 5em;
   width: 100%;
 }
 
@@ -84,13 +84,11 @@ nav img {
 }
 
 .active {
-  color: var(--rust);
+  color: var(--redwood);
   cursor: default;
   transition: all 0.5s ease-in-out 0s;
   letter-spacing: 1.8px;
 }
-
-
 
 .active img {
   opacity: .3;
@@ -100,7 +98,7 @@ nav a {
   color: var(--snow);
   text-decoration: none;
   transition: all 0.5s ease-in-out 0s;
-  font-size: 1rem;
+  font-size: 1.2rem;
   opacity: .9;
   margin: 0 13px;
 }
