@@ -123,7 +123,11 @@ export default function ProjectPage() {
           </div>
 
           <div className="media">
-            <img src="/snake.png"></img>
+            <div className="video-mask">
+              <video className="vsssnake-vid" autoPlay loop muted>
+                <source src="/vsssnake.mp4" type="video/mp4"></source>
+              </video>
+            </div>
             <div className="arrows">
               <a href="#printstagram">
                 <img className="arrow" src="/arrowup.png" />

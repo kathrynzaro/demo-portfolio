@@ -49,7 +49,7 @@ export default function App() {
               </Link>
             </li>
             <li>
-              <a href="/katzaro-resume-sept2022.pdf" target="_blank">
+              <a href="/katzaro-resume.pdf" target="_blank">
                 <span className="nav-text">Resume</span>
                 <img src="/resume.png" className="nav-icon" />
               </a>
