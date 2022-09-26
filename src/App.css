@@ -35,7 +35,8 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  height: fit-content;
+  margin: 50px 50px 100px;
 }
 
 
@@ -71,13 +72,13 @@ nav img {
   width: 20px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .nav-icon {
     display: none;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .nav-text {
     display: none;
   }
