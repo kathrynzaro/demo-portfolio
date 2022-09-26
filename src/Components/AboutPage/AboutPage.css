@@ -40,7 +40,7 @@ em {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 100%;
     width: 90vw;
     padding: 50px 0 100px;
   }
