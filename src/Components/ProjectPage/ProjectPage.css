@@ -1,11 +1,12 @@
-.project-page {
+/* .project-page {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 50px;
   width: 100vh;
-}
+  height: 100%;
+} */
 
 .project-card {
   text-align: left;
@@ -59,9 +60,14 @@
   }
 }
 
+  .project-page {
+    display: grid;
+    grid-template-rows: 100px 1fr 100px 1fr 100px 1fr 100px;
+  }
+
+
 .project-card {
     padding: 5px;
-    height: 80vh;
     text-align: left;
     display: flex;
     flex-direction: row;
@@ -73,7 +79,16 @@
     max-width: 1100px;
   }
 
+  #boobot {
+    grid-row: 2 / span 1;
+  }
+  
+  #printstagram {
+    grid-row: 4 / span 1;
+  }
+  
   #vsssnake {
+    grid-row: 6 / span 1;
     padding-bottom: 150px;
   }
 
@@ -116,7 +131,7 @@
   }
 
   .project-card p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: left;
     padding: 10px 10px;
     margin: 0;
