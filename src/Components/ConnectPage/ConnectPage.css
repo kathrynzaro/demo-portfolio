@@ -10,7 +10,6 @@
 .connect-page h1 {
   color: var(--redwood);
   opacity: .8;
-  border-top: 1px solid var(--tuscany);
   padding-top: 13px;
 }
 
@@ -69,7 +68,7 @@ li {
 
   .left-section {
     padding: 40px;
-    height: 330px;
+    height: 320px;
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -82,20 +81,19 @@ li {
     padding: 40px;
     height: fit-content;
     width: 400px;
-    
+    height: 320px;
   }
   
   .connect-page h1 {
-
     font-size: 2.7rem;
     font-weight: 600;
   }
 
   .connect-page p {
     margin: 0px;
-    line-height: 24px;
+    line-height: 26px;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .right-section ul {
@@ -158,6 +156,8 @@ li {
     font-weight: 600;
     margin-bottom: 20px;
     width: 335px;
+    border-top: 1px solid var(--tuscany);
+
   }
 
   .connect-page p {
