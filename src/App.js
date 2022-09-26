@@ -1,17 +1,22 @@
 import React from 'react';
+import { useState } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link, NavLink } from 'react-router-dom';
 import HomePage from './Components/HomePage/HomePage';
 import AboutPage from './Components/AboutPage/AboutPage';
 import ProjectPage from './Components/ProjectPage/ProjectPage';
 import ConnectPage from './Components/ConnectPage/ConnectPage';
 import './App.css';
+import { Sling as Hamburger } from 'hamburger-react';
 
 export default function App() {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const [isOpen, setOpen] = useState(false);
+
   return (
     <Router>
       <div>
         <nav>
-          <ul>
+          <ul className={isNavExpanded ? 'nav-bar expanded' : 'nav-bar'}>
             <li>
               <NavLink exact to="/" activeClassName="active">
                 <span className="nav-text">Home</span>
@@ -55,6 +60,25 @@ export default function App() {
               </a>
             </li>
           </ul>
+          <button
+            className="burger"
+            onClick={() => {
+              setIsNavExpanded(!isNavExpanded);
+            }}
+          >
+            <Hamburger
+              toggled={isOpen}
+              toggle={setOpen}
+              direction={'left'}
+              size={25}
+              duration={1}
+              distance="sm"
+              color="white"
+              easing="ease-in"
+              rounded
+              label="Show menu"
+            />
+          </button>
         </nav>
 
         <Switch>
