@@ -50,16 +50,16 @@ nav {
   width: 100%;
 }
 
-ul {
+.nav-bar {
   list-style-type: none;
   margin: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  display: none;
   width: 100vw;
   max-width: 1000px;
   padding: 0;
+  right: 10px;
+  top: 10px;
+  position: absolute;
 }
 
 nav img {
@@ -72,17 +72,57 @@ nav img {
   width: 20px;
 }
 
+  .nav-bar {
+    display: none;
+
+  }
+
+  @keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
+}
+
+
+  .nav-bar.expanded  {
+    animation: wipe-enter 1s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .burger {
+    display: block;
+  }
+
 @media (min-width: 700px) {
   .nav-icon {
     display: none;
   }
+
 }
 
 @media (max-width: 700px) {
   .nav-text {
     display: none;
   }
+
+
 }
+
 
 .active {
   color: var(--redwood);
@@ -102,6 +142,7 @@ nav a {
   font-size: 1.2rem;
   opacity: .9;
   margin: 0 13px;
+  /* animation: fontbulger 7s; */
 }
 
 nav a:not(.active):hover {
@@ -109,5 +150,24 @@ nav a:not(.active):hover {
   padding-bottom: 4px;
   border-bottom: 1.5px solid var(--snow);
   color: var(--rust);
+}
+
+.burger {
+  border: 0;
+  height: 60px;
+  width: 60px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: .8;
+}
+
+.burger:hover {
+  opacity: .5;
 }
 
