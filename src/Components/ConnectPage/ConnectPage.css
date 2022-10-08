@@ -9,14 +9,14 @@
 
 .connect-page h1 {
   color: var(--redwood);
-  opacity: .8;
+  opacity: .9;
   padding-top: 13px;
 }
 
 .connect-page p {
   margin: 0px;
   color: var(--misty-rose);
-  opacity: .8;
+  opacity: .9;
 
 }
 
@@ -34,7 +34,7 @@
 
 li {
   color: var(--misty-rose);
-  opacity: .8;
+  opacity: .9;
 }
 
 .right-section a {
@@ -51,8 +51,8 @@ li {
 
   .connect-page {
     display: flex;
-    padding: 50px 0 100px;
-    height: 80vh;
+    padding: 20px 0 100px;
+    min-height: 80vh;
     width: 100vw;
     justify-content: center;
     align-items: center;
@@ -103,14 +103,17 @@ li {
     justify-content: center;
     margin: 0;
     height: 100%;
+    list-style-type: none;
   }
-
+  
   .right-section li {
+    text-decoration: none;
     font-size: 1.3rem;
     font-weight: 500;
     padding: 15px 10px 25px;
     letter-spacing: 2px;
   }
+
 
   .right-section a {
     text-decoration: none;
@@ -122,8 +125,8 @@ li {
     opacity: 1;
     transition: all 0.5s ease-in-out 0s;
     color: var(--falu-red);
-    padding-bottom: 4px;
-    border-bottom: 1px solid var(--snow);
+    /* padding-bottom: 4px; */
+    /* border-bottom: 1px solid var(--snow); */
   }
 }
 
@@ -175,6 +178,8 @@ li {
     width: 335px;
     margin: 0;
     height: 200px;
+    list-style-type: none;
+    padding: 0;
   }
 
   li {
