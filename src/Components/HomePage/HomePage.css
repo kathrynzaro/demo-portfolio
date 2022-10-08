@@ -1,16 +1,13 @@
 .homepage h1 {
   color: var(--tuscany);
-  opacity: .9;
 }
 
 .homepage h2 {
   color: var(--rust);
-  opacity: .9;
 }
 
 .homepage h3 {
   color: var(--misty-rose);
-  opacity: .9;
 }
 
 #kat {

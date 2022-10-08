@@ -24,7 +24,7 @@
 
 .project-card p {
   text-align: left;
-  opacity: .8;
+  opacity: .9;
   color: var(--snow);
 }
   
@@ -64,9 +64,9 @@
     display: grid;
     grid-template-rows: 100px 1fr 100px 1fr 100px 1fr 100px;
   }
-
-
-.project-card {
+  
+  
+  .project-card {
     padding: 5px;
     text-align: left;
     display: flex;
@@ -117,7 +117,7 @@
   #vsssnake h1:hover {
     font-family: 'PRESS START 2P', cursive;
     font-size: 3rem;
-    padding: 5px 10px 40px;
+    padding: 5px 10px 41px;
     color: rgba(141, 255, 84, 0.858);
     font-weight: 200;
 
@@ -131,7 +131,8 @@
   }
 
   .project-card p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    letter-spacing: .5px;
     text-align: left;
     padding: 10px 10px;
     margin: 0;
