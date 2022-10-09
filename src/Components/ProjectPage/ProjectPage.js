@@ -44,7 +44,7 @@ export default function ProjectPage() {
           </div>
           <div className="media">
             <div className="video-mask">
-              <video className="boobot-vid" autoPlay loop muted>
+              <video className="boobot-vid" playsinline autoPlay loop muted>
                 <source src="/booghost.mp4" type="video/mp4"></source>
               </video>
             </div>
@@ -82,7 +82,7 @@ export default function ProjectPage() {
           </div>
           <div className="media">
             <div className="video-mask">
-              <video className="printstagram-vid" autoPlay loop muted>
+              <video className="printstagram-vid" playsinline autoPlay loop muted>
                 <source src="/prinsta.mp4" type="video/mp4"></source>
               </video>
             </div>
@@ -124,7 +124,7 @@ export default function ProjectPage() {
 
           <div className="media">
             <div className="video-mask">
-              <video className="vsssnake-vid" autoPlay loop muted>
+              <video className="vsssnake-vid" playsinline autoPlay loop muted>
                 <source src="/vsssnake.mp4" type="video/mp4"></source>
               </video>
             </div>
