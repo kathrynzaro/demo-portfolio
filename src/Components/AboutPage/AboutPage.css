@@ -57,7 +57,7 @@ em {
   .about-page img {
     opacity: .7;
     width: 400px;
-    border-radius: 40%;
+    border-radius: 5px;
     box-shadow: 0 0 30px black;
   }
   

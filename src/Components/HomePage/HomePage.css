@@ -81,7 +81,7 @@
   .homepage a:hover {
     padding-bottom: 3px;
     opacity: 1;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
   }
 }
 
