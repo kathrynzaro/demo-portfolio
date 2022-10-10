@@ -96,6 +96,13 @@ nav img {
 }
 
 
+
+  .burger {
+    display: block;
+  }
+
+@media (min-width: 760px) {
+
   .nav-bar.expanded  {
     animation: slide-in 1s ease-in-out;
     display: flex;
@@ -104,11 +111,7 @@ nav img {
     align-items: center;
   }
 
-  .burger {
-    display: block;
-  }
 
-@media (min-width: 760px) {
 
   nav {
     display: flex;
@@ -130,6 +133,13 @@ nav img {
 }
 
 @media (max-width: 759px) {
+
+  .nav-bar.expanded  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
   nav {
     display: flex;
