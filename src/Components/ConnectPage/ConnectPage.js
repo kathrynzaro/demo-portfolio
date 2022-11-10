@@ -9,12 +9,13 @@ export default function ConnectPage() {
           <section className="left-section">
             <h1>Let&apos;s connect!</h1>
             <p>
-              Ask me about how much I love CSS, my degree in Women&apos;s Studies, my experience
-              slinging lattes and americanos in the service industry, my cats, anything you want,
-              really. I&apos;m on the lookout for new opportunities and I&apos;d love to hear from
-              you.
+              Ask me about my love for design, my degree in Women&apos;s Studies, my experience
+              slinging lattes and americanos in the service industry, my cats––anything you want,
+              really. <span>But mostly my cats.</span> I&apos;m on the lookout for new opportunities
+              and I&apos;d love to chat.
             </p>
           </section>
+
           <section className="right-section">
             <ul>
               <li>
@@ -24,6 +25,7 @@ export default function ConnectPage() {
                   email
                 </a>
               </li>
+
               <li>
                 Check out my
                 <a href="/katzaro-resume.pdf" target="_blank" rel="noreferrer">
@@ -31,6 +33,7 @@ export default function ConnectPage() {
                   resume
                 </a>
               </li>
+
               <li>
                 And my
                 <a href="https://www.linkedin.com/in/katzaro/" target="_blank" rel="noreferrer">
@@ -38,8 +41,9 @@ export default function ConnectPage() {
                   LinkedIn
                 </a>
               </li>
+
               <li>
-                Hey, maybe even my
+                Maybe even my
                 <a href="https://github.com/kathrynzaro" target="_blank" rel="noreferrer">
                   {' '}
                   GitHub

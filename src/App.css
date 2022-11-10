@@ -177,8 +177,7 @@ nav a {
   color: var(--snow);
   text-decoration: none;
   transition: all 0.5s ease-in-out 0s;
-  font-size: .9rem;
-  /* animation: fontbulger 7s; */
+  font-size: 1.1rem;
 }
 
 nav a:not(.active):hover {
