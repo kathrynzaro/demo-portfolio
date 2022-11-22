@@ -19,7 +19,6 @@ export default function HomePage() {
           </h3>
         </section>
       </div>
-      {/* <footer><a href="/connect">Connect</a></footer> */}
     </div>
   );
 }
