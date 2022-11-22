@@ -47,7 +47,7 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 5em;
   width: 100%;
 }
@@ -57,7 +57,7 @@ nav {
   margin: 20px;
   display: none;
   width: 80vw;
-  max-width: 1000px;
+  max-width: 1200px;
   padding: 0;
   right: 50;
   top: 12px;
@@ -126,7 +126,7 @@ nav img {
   }
 
   nav a {
-    margin: 0 18px;
+    margin: 0 5px;
 
   }
 
@@ -166,7 +166,7 @@ nav img {
   color: var(--redwood);
   cursor: default;
   transition: all 0.5s ease-in-out 0s;
-  letter-spacing: 1.8px;
+  letter-spacing: 2px;
 }
 
 .active img {
@@ -177,7 +177,7 @@ nav a {
   color: var(--snow);
   text-decoration: none;
   transition: all 0.5s ease-in-out 0s;
-  font-size: 1.1rem;
+  font-size: 1.35rem;
 }
 
 nav a:not(.active):hover {
@@ -196,7 +196,7 @@ nav a:not(.active):hover {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   position: absolute;
-  top: 10px;
+  top: 12px;
   right: 10px;
   background-color: rgba(255, 255, 255, 0);
   opacity: .9;

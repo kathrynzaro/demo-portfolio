@@ -17,10 +17,14 @@ export default function AboutPage() {
               <br></br> Drawing from a background in Women&apos;s Studies and the specialty coffee
               industry, my greatest hope is to improve the lived experience of others and to
               transform the physical & tech spaces around me into spaces that are{' '}
-              <em>accessible</em>, <em>efficient</em>, and, of course, <em>easy on the eyes</em>.
+              <strong>accessible</strong>, <strong>efficient</strong>, and, of course,{' '}
+              <strong>easy on the eyes</strong>.
             </p>
           </div>
-          <img src="/headshot.jpeg" />
+
+          <a href="https://www.linkedin.com/in/katzaro/" target="_blank" rel="noreferrer">
+            <img src="/headshot.jpeg" />
+          </a>
           {/* <table>
             <thead>
               <tr>
