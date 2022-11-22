@@ -12,11 +12,11 @@ export default function HomePage() {
           <h2>
             I&apos;m a software engineer in <span id="portland">Portland, OR</span>.
           </h2>
-          <h3>
+          {/* <h3>
             Check out some of the
             <a href="/project"> projects </a>
             I&apos;ve been working on.
-          </h3>
+          </h3> */}
         </section>
       </div>
     </div>
